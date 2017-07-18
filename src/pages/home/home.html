@@ -1,17 +1,43 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
+    <ion-navbar>
+        <ion-title>我的订单</ion-title>
+    </ion-navbar>
 </ion-header>
-
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content padding class="list-avatar-page">
+    <ion-searchbar></ion-searchbar>
+    <ion-list>
+        <ion-item>
+            <ion-thumbnail item-left>                 
+                <img src="assets/img/avatar-ts-woody.jpg">
+            </ion-thumbnail>
+            <h1>洗衣机</h1>
+            <p>This town ain't big enough for the two of us!</p>
+            <ion-note item-right>2016-7-18</ion-note>
+        </ion-item>
+        <ion-item>
+            <ion-thumbnail item-left>
+                <img src="assets/img/avatar-ts-buzz.jpg">
+            </ion-thumbnail>
+            <h1>电视机</h1>
+            <p>My eyeballs could have been sucked from their sockets!</p>
+            <ion-note item-right>2016-7-17</ion-note>
+        </ion-item>
+        <ion-item>
+            <ion-thumbnail item-left>
+                <img src="assets/img/avatar-ts-jessie.jpg">
+            </ion-thumbnail>
+            <h1>超级洗衣机</h1>
+            <p>Well aren't you just the sweetest space toy I ever did meet!</p>
+            <ion-note item-right>2016-7-16</ion-note>
+        </ion-item>
+        <ion-item>
+            <ion-thumbnail item-left>
+                <img src="assets/img/avatar-ts-potatohead.jpg">
+            </ion-thumbnail>
+            <h1>冰箱</h1>
+            <p>You're not turning me into a Mashed Potato.</p>
+            <ion-note item-right>2016-7-15</ion-note>
+        </ion-item>
+            
+    </ion-list>
 </ion-content>
